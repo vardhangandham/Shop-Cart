@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+    --blue-gray: #ecf0f1;
+    --pale-blue: #2c3e50;
+    --mid-gray: #999;
+    --jean-blue: #3b5875;
+    --light-blue: #95afc0;
+    --sky-blue: #dff9fb;
+    --dark-sky-blue: #c7ecee;
+    --light-gray: #ccc;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    box-shadow: 4px 4px 2px var(--mid-gray);
+    margin: 42px;
+    padding: 20px;
+    font-size: 23px;
+    border-radius: 17px;
+    background-color: gray;
+    transition: all 0.4s;
+}
+
+.products a {
+    color: white;
+    text-decoration: none;
+}
+
+.products:hover {
+    box-shadow: 0px 0px;
+    transform: translateX(12px);
+}
+
+.rowUp {
+    display: flex;
+    padding: 36px;
+    justify-content: space-between;
+    background-color: #efbfbf;
+    margin-bottom: 6rem;
+}
+
+.heading {
+    font-size: 3rem;
+    padding-left: 50px;
+}
+
+.heading a {
+    text-decoration: none;
+    color: black;
+}
+
+.rightportion {
+    display: flex;
+    align-items: center;
+    justify-content: revert;
+    gap: 3rem;
+    font-size: 1.85rem;
+}
+
+.rightportion a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-heading {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
